@@ -17,7 +17,7 @@ Safetrack é um aplicativo de rastreamento em tempo real, pensado para seguranç
 ## Telas do Aplicativo
 <img width="367" height="821" alt="imagem_2025-12-04_135544646" src="https://github.com/user-attachments/assets/aef2b99d-bf88-4025-8b5c-ff11542d0fa1" />
 <img width="370" height="823" alt="imagem_2025-12-04_135620496" src="https://github.com/user-attachments/assets/1c2973f3-2dfc-409d-bd20-34ed42ee9bd6" />
-<img width="395" height="877" alt="Screenshot_10" src="https://github.com/user-attachments/assets/a0c2e966-0e94-4f7f-bf76-a9656a43a245" />
+<img width="370" height="822" alt="Screenshot_10" src="https://github.com/user-attachments/assets/70de64fa-9b53-45e0-9f25-44be59928b07" />
 <img width="367" height="817" alt="imagem_2025-12-04_140038584" src="https://github.com/user-attachments/assets/b835c68d-7361-4591-872b-9070f38f598e" />
 <img width="368" height="818" alt="imagem_2025-12-04_135823614" src="https://github.com/user-attachments/assets/565ee01a-af07-45f6-b6bc-843934742ba0" />
 <img width="367" height="821" alt="imagem_2025-12-04_135852664" src="https://github.com/user-attachments/assets/a5af5982-7512-4251-8a20-5aaa8118a0cb" />
