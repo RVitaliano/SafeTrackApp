@@ -14,6 +14,9 @@ Safetrack é um aplicativo de rastreamento em tempo real, pensado para seguranç
 - Firebase – Autenticação, banco de dados em tempo real e notificações.<br>
 - Google Maps API – Exibição de mapas, interação em tempo real e marcação de pontos de interesse.<br>
 
+## Projeto
+Para rodar o projeto, é preciso criar seu próprio firebase e importar o API Google Maps
+
 ## Telas do Aplicativo
 <img width="367" height="821" alt="imagem_2025-12-04_135544646" src="https://github.com/user-attachments/assets/aef2b99d-bf88-4025-8b5c-ff11542d0fa1" />
 <img width="370" height="823" alt="imagem_2025-12-04_135620496" src="https://github.com/user-attachments/assets/1c2973f3-2dfc-409d-bd20-34ed42ee9bd6" />
