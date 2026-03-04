@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SafeTrack</string>
+    <string name="welcome_message">Seja bem-vindo ao SafeTrack</string>
+    <string name="email">E-mail: </string>
+    <string name="pwd">Senha</string>
+    <string name="login">Login</string>
+    <string name="SingUp">Cadastro</string>
+    <string name="PwdRecovey">Esqueci Minha Senha</string>
+    <string name="login_error">E-Mail ou Senha Incorreta!</string>
+    <string name="Test_Atividade">Tela Atividade</string>
+    <string name="Test_Familia">Tela Familia</string>
+    <string name="Test_Mapa">Tela Mapa</string>
+    <string name="Test_Settings">Tela Config</string>
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="default_web_client_id">682335120191-t3f3smeu63no1hku7tc2g2lbjcsd8t5r.apps.googleusercontent.com</string>
+</resources>

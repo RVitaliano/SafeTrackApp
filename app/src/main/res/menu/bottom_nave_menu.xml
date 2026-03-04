@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_mapa"
+        android:title="Mapa"
+        android:icon="@drawable/ic_map"/>
+    <item
+        android:id="@+id/nav_familia"
+        android:title="Família"
+        android:icon="@drawable/ic_family"/>
+    <item
+        android:id="@+id/nav_atividade"
+        android:title="Atividade"
+        android:icon="@drawable/ic_activity"/>
+    <item
+        android:id="@+id/nav_config"
+        android:title="Config"
+        android:icon="@drawable/ic_settings"/>
+</menu>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F8"
+    tools:context="com.example.safetrack.telas.FamiliaFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/buttonLeaveGroup"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gerenciar Família/Grupo"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="24dp" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="24dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="4dp"
+                android:backgroundTint="@android:color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status Atual"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/textViewGroupNameDisplay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="@android:color/black"
+                        android:layout_marginBottom="4dp"
+                        android:visibility="gone"
+                        tools:text="Nome do Grupo: Família Silva"/>
+
+                    <TextView
+                        android:id="@+id/textViewCurrentGroupId"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Verificando..."
+                        android:textSize="16sp"
+                        android:textColor="#3F51B5"
+                        android:textStyle="italic" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnShowCreate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Criar Novo Grupo"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#2196F3"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp" />
+
+            <Button
+                android:id="@+id/btnShowJoin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Entrar em Grupo Existente"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                app:backgroundTint="#2196F3"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp" />
+
+
+            <LinearLayout
+                android:id="@+id/actionGroupContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tvCreateGroupTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Detalhes do Novo Grupo:"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editTextGroupName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nome do Grupo"
+                    android:inputType="text"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_edittext_background"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editTextNewGroupId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Digite o ID do Grupo"
+                    android:inputType="textCapCharacters"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_edittext_background"
+                    android:layout_marginBottom="8dp" />
+
+                <EditText
+                    android:id="@+id/editTextGroupPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Senha do Grupo (Mín. 6 caracteres)"
+                    android:inputType="textPassword"
+                    android:padding="12dp"
+                    android:background="@drawable/rounded_edittext_background"
+                    android:layout_marginBottom="16dp" />
+
+                <Button
+                    android:id="@+id/buttonCreateGroup"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmar Criação"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#2196F3"  android:padding="12dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="8dp" />
+
+                <Button
+                    android:id="@+id/buttonUpdateGroupId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Confirmar Entrada"
+                    android:textColor="@android:color/white"
+                    app:backgroundTint="#2196F3"
+                    android:padding="12dp"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="16dp" />
+
+                <Button
+                    android:id="@+id/btnCancelAction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="48dp"
+                    android:backgroundTint="#CCCCCC"
+                    android:text="VOLTAR"
+                    android:textColor="#000000"
+                    android:drawableStart="@drawable/ic_arrow_back"
+                    android:drawableLeft="@drawable/ic_arrow_back"
+                    android:drawablePadding="0dp"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
+                    android:gravity="center"
+                    android:layout_marginBottom="16dp"/>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvTitleMembers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Integrantes do Grupo"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="12dp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewMembers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"
+                tools:listitem="@layout/item_member"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="32dp" />
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/buttonLeaveGroup"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sair do Grupo Atual (Apaga Histórico)"
+        android:textColor="@android:color/white"
+        app:backgroundTint="#D32F2F"
+        android:padding="12dp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
