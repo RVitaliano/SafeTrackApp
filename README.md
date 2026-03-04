@@ -15,12 +15,11 @@ Safetrack é um aplicativo de rastreamento em tempo real, pensado para seguranç
 - Google Maps API – Exibição de mapas, interação em tempo real e marcação de pontos de interesse.<br>
 
 ## Telas do Aplicativo
-<img width="367" height="819" alt="imagem_2025-12-04_140416883" src="https://github.com/user-attachments/assets/4501ed6e-d43c-4276-91cc-64ee80ff8563" />
-<img width="370" height="823" alt="imagem_2025-12-04_135620496" src="https://github.com/user-attachments/assets/13241a77-73fc-46c2-b1de-156ce8fdc023" />
-<img width="368" height="822" alt="imagem_2025-12-04_135751550" src="https://github.com/user-attachments/assets/c2a67766-7378-4dd3-b4ec-496eb710c587" />
-<img width="368" height="818" alt="imagem_2025-12-04_135823614" src="https://github.com/user-attachments/assets/99e09c7d-7d24-4ce6-befd-a9b31e3647ad" />
-<img width="367" height="821" alt="imagem_2025-12-04_135852664" src="https://github.com/user-attachments/assets/ffacf635-3bc7-4288-b71b-616ce9d195b2" />
-<img width="367" height="817" alt="imagem_2025-12-04_140038584" src="https://github.com/user-attachments/assets/bf64ed8a-788e-418d-aa39-02ef5594f83a" />
-<img width="365" height="822" alt="imagem_2025-12-04_140123937" src="https://github.com/user-attachments/assets/8bcbcb18-1a0b-48ff-bf56-264994d1d388" />
-<img width="371" height="822" alt="imagem_2025-12-04_140233363" src="https://github.com/user-attachments/assets/72a746bb-c35b-44da-8a0f-d8f6a904ada0" />
-<img width="367" height="821" alt="imagem_2025-12-04_135544646" src="https://github.com/user-attachments/assets/c4618c39-0b13-4a7d-8c7c-6a629f2f06ff" />
+<img width="367" height="821" alt="imagem_2025-12-04_135544646" src="https://github.com/user-attachments/assets/aef2b99d-bf88-4025-8b5c-ff11542d0fa1" />
+<img width="370" height="823" alt="imagem_2025-12-04_135620496" src="https://github.com/user-attachments/assets/1c2973f3-2dfc-409d-bd20-34ed42ee9bd6" />
+<img width="368" height="822" alt="imagem_2025-12-04_135751550" src="https://github.com/user-attachments/assets/6e7e3dec-47cc-45da-bc5b-197616d6e2d6" />
+<img width="367" height="817" alt="imagem_2025-12-04_140038584" src="https://github.com/user-attachments/assets/b835c68d-7361-4591-872b-9070f38f598e" />
+<img width="368" height="818" alt="imagem_2025-12-04_135823614" src="https://github.com/user-attachments/assets/565ee01a-af07-45f6-b6bc-843934742ba0" />
+<img width="367" height="821" alt="imagem_2025-12-04_135852664" src="https://github.com/user-attachments/assets/a5af5982-7512-4251-8a20-5aaa8118a0cb" />
+<img width="365" height="822" alt="imagem_2025-12-04_140123937" src="https://github.com/user-attachments/assets/a09b2944-d958-48e3-893d-47a06df73a01" />
+<img width="371" height="822" alt="imagem_2025-12-04_140233363" src="https://github.com/user-attachments/assets/89c5d31a-d3b3-4c36-8d67-bf50e7e1f7d1" />
